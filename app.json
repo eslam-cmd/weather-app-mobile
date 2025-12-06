@@ -2,7 +2,7 @@
   "expo": {
     "name": "weather app",
     "slug": "weather-app",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.jpg",
     "scheme": "weatherapp",
@@ -14,7 +14,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.jpg",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "versionCode": 2
       },
       "edgeToEdgeEnabled": true,
       "package": "com.eslamhadaya.weatherapp"
@@ -43,6 +44,7 @@
       "eas": {
         "projectId": "529644b3-57f8-428a-8694-78165ce0e355"
       }
+      
     }
   }
 }
